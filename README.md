@@ -1,5 +1,17 @@
 # openai-gpt
 
+OpenAI GPTのサンプルです。
+以下の部分だけ自分のAPI-Keyに書き換えれば動きます。
+
+```js
+const openai = new OpenAI({
+  organization: 'org-xxxxxxxxxxxxxxxxxxxxxxxx',
+  apiKey: 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  dangerouslyAllowBrowser: true   // ブラウザ上で強制実行するためのフラグ
+})
+```
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
